@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+input{
+    padding:0;
+}
+h2,p{
+    margin: 0;
+    font-weight: normal;
+
+}
+.header{
+    width: 1320px;
+    height: 132px;
+    margin: 0 auto;
+}
+.logo{
+    width: 195px;
+    height:44px;
+    margin-left: 63px;
+    margin-top: 44px;
+    float: left;
+}
+.contact{
+    width: 317px;
+    height: 23px;
+    float: right;
+    margin-right: 42px;
+    margin-top: 50px;
+    font-family:"SourceHanSansCN";
+    font-size: 14px;
+    color:#8d8d8d;
+    line-height: 21px;
+}
+.phone{
+    float: left;
+    width: 16px;
+    height: 19px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+.phone-number{
+    width:95px;
+    height: 21px;
+    float: left;
+   
+    line-height: 21px;
+    margin-left: 4px;
+}
+.line{
+    width: 1px;
+    height: 13px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+.email{
+    width: 20px;
+    height: 16px;
+    float: left;
+    margin-top: 4px;
+
+}
+.email-address{
+    width: 132px;
+    height: 21px;
+    float: left;
+    margin-left: 10px;
+}
+/* 头部结束 */
+/* 导航开始 */
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+
+}
+.nav-inner{
+    width: 1208px;
+    height:80px;
+    margin: 0 auto;
+}
+.nav-list{
+    width: 855px;
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.nav-search{
+    width: 153px;
+    height: 28px;
+    float: right;
+    margin-top: 28px;
+}
+.nav-item{
+    width: 170px;
+    height: 50px;
+    border-right: 1px solid #ebebeb;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    font-size: 18px;
+    font-family:"SourceHanSansCN";
+}
+.nav-item{
+    color: #333;
+}
+.nav .active{
+    color: blue;
+}
+.nav-input{
+    width: 107px;
+    height: 26px;
+    border-radius: 14px 0 0 14px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    float: left;
+}
+.nav-search-icon{
+    width: 43px;
+    height: 26px;
+    border: 1px solid #849ee7;
+    border-radius: 0 14px 14px 0;
+    float: left;
+    background-color: #b8c9ff;
+    background-image: url(../imgs/search.png);
+    background-repeat: no-repeat;
+    background-position:12px 5px;
+}
+.nav-input input{
+    width:94px;
+    height: 100%;
+    border: none;
+    color: #e5e5e5;
+    margin-left: 13px;
+}
+.nav-input input:focus{
+    outline: none;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+    width: 100%;
+    height: 593px;
+    margin-top: 6px;
+    background-image: url(../imgs/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 1920px;
+}
+.chanpin{
+    width: 414px;
+    height: 90px;
+    margin: 78px auto 0;
+    background-color: red;
+    
+}
+.chanpin-text1{
+    width: 359px;
+    height: 30px;
+    margin-left: 13px;
+    background-color: blue;
+}
+.chanpin-text2{
+    width: 414px;
+    height: 15px;
+    margin-top: 20px;
+    background-color: green;
+}
+.chanpin-text3{
+    width: 53px;
+    height: 3px;
+    background-color: #4a8fe3;
+    margin-top: 23px;
+    margin-left: 198px;
+}
+.lingyu{
+    width: 1263px;
+    height: 364px;
+    margin:52px auto 0;
+    background-color: pink;
+}
+.lingyus{
+    width: 1263px;
+    height: 364px;
+    margin:52px auto 0;
+    background-color: pink;
+}
+.lingyu-item{
+    width: 150px;
+    height: 108px;
+    margin-right: 144px;
+    margin-bottom: 66px;
+    background-color: yellow;
+    float: left;
+}

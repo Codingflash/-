@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: red;
+            position: absolute;
+        }
+        .two{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: absolute;;
+            left: 10px;
+        }
+        .container{
+            width: 500px;
+            height: 300px;
+            border: 1px solid red; 
+            margin: 0 auto;
+            position: relative;;
+        }
+        .three{
+            width: 300px;
+            height: 400px;
+            background-color: pink;
+            position: relative;;
+            left: 600px;
+        }
+        .three p{
+            width: 300px;
+            height: 30px;
+            text-align:center;
+            position:absolute;
+           bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="one"></div> -->
+    <div class="container">
+        <div class="two"></div>
+    </div>
+    <div class="three">
+        <p>这是一段文字</p>
+    </div>
+</body>
+</html>

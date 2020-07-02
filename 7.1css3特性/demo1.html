@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.scene{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    perspective:1000px ;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background:url(logo.png);
+    transition: all 1s;
+    margin: 200px;
+}
+.scene:hover .item{
+    /* transform:translateZ(-100px); */
+    /* transform:rotate3d(1,1,1,45deg); */
+    transform: scaleZ(3) translateZ(100px);
+
+}
+    </style>
+  
+</head>
+<body>
+    <div class="scene">
+        <div class="item"></div>
+    </div>
+</body>
+</html>

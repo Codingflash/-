@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    /*
+         颜色名
+         十六进制
+         数值   rgb(0~255,0~255,0~255)
+    */
+
+
+}
+div{
+    color: red;
+}
+.one{
+    color: blue;
+}
+#two{
+    color:black;
+}
+#three{
+    background: pink;
+    height: 200px;
+    width: 500px;
+    border: 10px;
+}
+div#ll{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+}

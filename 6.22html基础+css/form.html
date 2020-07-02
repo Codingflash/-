@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单练习</title>
+    <link rel="stylesheet" href="1.css">
+    <style>
+        @import url(base.css);
+    </style>
+</head>
+<body>
+    <h1>lllllllllllll</h1>
+    <form action="">
+        <ul>
+            <li>  
+                <label for="one">商品1</label>
+                <input type="checkbox" name="goods[]" value="goods1" id="one">               
+            </li>
+            <li>
+   <input type="checkbox" name="goods[]" value="goods2"> 商品2
+            </li>
+            <li>
+        <input type="checkbox" name="goods[]" value="goods3">商品3
+            </li>
+        </ul>
+        <textarea name="" id="" cols="3" rows="10"></textarea>
+        <button type="reset">重置</button>
+        <button type="submit">提交</button>
+        <input type="reset" value="重置2">
+        <input type="submit" value="提交2">
+        <select name="sex" id="" size="2" multiple>
+            <option value="man">男</option>
+            <option value="woman" selected>女</option>
+            <option value="mid">中</option>
+        </select>
+              <label >
+              <input type="radio" value="man" name="sex">男
+              </label>
+              <label >
+              <input type="radio" value="woman" name="sex">女
+              </label>
+              <div class="one">第一块</div>
+              <div id="two">第二块</div>
+              <div id="three">第三块
+                     <div id="ll">嵌套中的块</div>
+              </div>
+              <div>第四块</div>
+              
+    </form>
+</body>
+</html>
